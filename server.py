@@ -1,5 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 
+# To use this code, follow guide: https://blog.dailydoseofds.com/p/building-an-mcp-server
+
 # Create an MCP server
 mcp = FastMCP("MCP-count-total-rs",
               host = "127.0.0.1",
